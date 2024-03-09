@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 1200px;
+  font-family: "Open Sans", sans-serif;
+  /* line-height: 16px; */
+}
+li,
+a {
+  font-family: "Open Sans", sans-serif;
+  line-height: 16px;
+  /* font-weight: 500; */
+  font-size: 16px;
+  color: black;
+
+  text-decoration: none;
+}
+.cta {
+  color: blue;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  margin-bottom: 22px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 8px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: red;
+}
+button {
+  /* padding: 9px 25px; */
+  background-color: none;
+  border: none;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+}
+/* button:hover {
+  color: red;
+} */
+
+/* 2nd */
+
+.container {
+  display: flex;
+  margin-left: 80px;
+  /* border: 2px solid black; */
+  margin-bottom: 160px;
+}
+.left-part {
+  /* border: 2px solid red; */
+  height: 616px;
+  width: 483px;
+  padding: 30px;
+  margin-left: 70px;
+}
+.left-part h2 {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 39.6px;
+}
+.left-part span {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 52.8px;
+  color: rgb(236, 67, 31);
+}
+
+.left-part .para-1 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 700; */
+  font-style: normal;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 20px;
+}
+.left-part .para-2 {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 700; */
+  font-style: italic;
+  line-height: 25.6px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.left-part .para-2 a {
+  border-bottom: 1px solid black;
+}
+.left-part .learn {
+  color: white;
+  padding: 10px 30px;
+  background-color: rgb(236, 67, 31);
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 3px;
+  line-height: 22.4px;
+  text-align: left;
+  transform: 1s ease;
+}
+
+.left-part .learn:hover {
+  background-color: black;
+  color: white;
+}
+.right-part {
+  margin-left: 20px;
+}
+
+#div-1 {
+  height: 616px;
+  width: 499.1px;
+
+  background-color: red;
+  position: absolute;
+
+  z-index: 2;
+}
+#div-2 {
+  background-color: #ec431f;
+  position: absolute;
+  z-index: 1;
+  width: 711.6px;
+  margin-left: 100px;
+  margin-top: 230px;
+  height: 299px;
+}
+#div-3 {
+  width: 390px;
+  height: 347px;
+  background-color: rgb(229, 229, 229);
+  z-index: 3;
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 370px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  /* font-weight: 300;
+  font-style: normal; */
+  letter-spacing: 3px;
+  line-height: 25.6px;
+  text-align: left;
+  padding: 30px;
+}
+
+.sink .para-1 {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+
+  font-style: normal;
+
+  line-height: 44.8px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: normal;
+}
+.sink .para-2 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+
+  font-style: normal;
+
+  text-align: right;
+}
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.footer-para {
+  margin: 0 50px;
+}
+.footer-para p {
+  padding: 49px 261px;
+}
