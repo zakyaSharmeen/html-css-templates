@@ -193,9 +193,7 @@ button:hover {
   filter: grayscale(75%);
   padding-left: 16px;
 }
-.box {
-  /* padding: 0 8px; */
-}
+
 .box img {
   vertical-align: middle;
 }
